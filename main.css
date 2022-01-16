@@ -2,6 +2,42 @@ body {
   font-family: "Poppins", sans-serif;
 }
 .img {
-  width: 10px;
-  height: 10px;
+  width: 50px;
+  height: 50px;
+}
+.k {
+  width: 50px;
+  height: 50px;
+}
+header {
+  display: flex;
+  width: 90%;
+  margin: auto;
+}
+.logo-container,
+.nav-links,
+.cart {
+  display: flex;
+}
+
+.logo-container {
+  background-color: rgb(238, 249, 253);
+  flex: 1;
+}
+nav {
+  background-color: rgb(40, 176, 180);
+  flex: 2;
+}
+
+.cart {
+  background-color: rgb(122, 90, 63);
+  flex: 1;
+}
+.img {
+  margin: 10px;
+  font-weight: 400;
+}
+.nav-links {
+  justify-content: space-around;
+  list-style: none;
 }
